@@ -51,4 +51,4 @@ go get -u github.com/arl/gitmux
 
 tmcの設定[Tmux生活を送る](https://qiita.com/aoi_stoic/items/df7533a2cbd475cc1394)
 
-go get github.com/cjbassi/gotop
+[gotop](https://github.com/cjbassi/gotop)
