@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/arl/gitmux/releases/tag/v0.7.5
+HostUrl=https://github-releases.githubusercontent.com/217990741/518a86e3-8194-451a-b04c-a5cafd3c3af7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20211109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211109T031241Z&X-Amz-Expires=300&X-Amz-Signature=66076010435dd7d38b4559322e743a7597ea1030ac1f6218a67c0d50854990bc&X-Amz-SignedHeaders=host&actor_id=89444685&key_id=0&repo_id=217990741&response-content-disposition=attachment%3B%20filename%3Dgitmux_0.7.5_linux_amd64.tar.gz&response-content-type=application%2Foctet-stream

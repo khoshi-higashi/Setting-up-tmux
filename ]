@@ -127,7 +127,7 @@ CPU: #{cpu_percentage} #{cpu_temp} RAM: #{ram_percentage} | \
 
 # TMGB_STATUS_STRING="#{git_branch} - #{git_upstream} - #{git_remote} #{git_flags}"
 set-option -g pane-border-status bottom
-set-option -g pane-border-format "#(~/go/bin/gitmux '#{pane_current_path}') #[fg=black,bg=white] #P #(~/.tmux/tmux-pane-border '#{pane_current_path}')"
+set-option -g pane-border-format "#(~/go/bin/gitmux '#{pane_current_path}')#[fg=whtie,bg=black] ${TMGB_STATUS_STRING} #P #(~/.tmux/tmux-pane-border '#{pane_current_path}') ${TMGB_STATUS_STRING}"
 # set-option -g pane-border-format "#P #(gitmux '#{pane_current_path}')"
 # set-option -g pane-border-fg colour023
 # set-option -g pane-active-border-fg blue

@@ -1,0 +1,4 @@
+./cmd.go
+./status.go
+./treestate.go
+./treestate_string.go
