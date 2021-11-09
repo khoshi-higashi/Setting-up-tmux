@@ -55,3 +55,6 @@ tmcの設定[Tmux生活を送る](https://qiita.com/aoi_stoic/items/df7533a2cbd4
 
 sudo mv gotop /bin/
 
+sudo vi /bin/tmc
+
+screenfetch
