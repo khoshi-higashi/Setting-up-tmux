@@ -11,16 +11,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
-|2,0,1636426686,,"wq"
 :w
-|2,0,1636426517,,"w"
+|2,0,1636428678,,"w"
 :q!
-|2,0,1636423414,,"q!"
-:q
-|2,0,1636423408,,"q"
+|2,0,1636430609,,"q!"
 :wq!
-|2,0,1636423403,,"wq!"
+|2,0,1636430604,,"wq!"
+:wq
+|2,0,1636430596,,"wq"
+:q
+|2,0,1636430558,,"q"
 :1
 |2,0,1636417703,,"1"
 :w!
@@ -35,9 +35,9 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	TMGB_STATUS_STRING="#{git_branch} - #{git_upstream} - #{git_remote} #{git_flags}"
-|3,1,1,1,1,0,1636426375,"TMGB_STATUS_STRING=\"#{git_branch} - #{git_upstream} - #{git_remote} #{git_flags}\""
+|3,0,1,1,1,0,1636426375,"TMGB_STATUS_STRING=\"#{git_branch} - #{git_upstream} - #{git_remote} #{git_flags}\""
 "2	LINE	0
 	[http]
 |3,0,2,1,1,0,1636423974,"[http]"
@@ -59,45 +59,123 @@
 "8	LINE	0
 	[http "https://github.com/"]
 |3,0,8,1,1,0,1636417400,"[http \"https://github.com/\"]"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1636426357," "
+""-	CHAR	0
+	e
+|3,1,36,0,1,0,1636430652,"e"
 
 # File marks:
 '0  131  0  ~/.tmux.conf
-|4,48,131,0,1636426686,"~/.tmux.conf"
-'1  3  1  ~/.gitconfig
-|4,49,3,1,1636423975,"~/.gitconfig"
-'2  58  25  /etc/ssh/sshd_config
-|4,50,58,25,1636423414,"/etc/ssh/sshd_config"
-'3  1  8  ~/.tmux/tmux-pane-border
-|4,51,1,8,1636422363,"~/.tmux/tmux-pane-border"
-'4  140  1  ~/.bashrc
-|4,52,140,1,1636420319,"~/.bashrc"
-'5  1  0  ~/etc/apt/apt.conf
-|4,53,1,0,1636417713,"~/etc/apt/apt.conf"
-'6  1  0  ~/.vimrc
-|4,54,1,0,1636417587,"~/.vimrc"
-'7  1  9  ~/.vimrc
-|4,55,1,9,1636417581,"~/.vimrc"
-'8  3  1  ~/.gitconfig
-|4,56,3,1,1636417406,"~/.gitconfig"
-'9  136  0  ~/.tmux.conf
-|4,57,136,0,1636416599,"~/.tmux.conf"
+|4,48,131,0,1636430663,"~/.tmux.conf"
+'1  43  7  /usr/bin/tmc
+|4,49,43,7,1636430609,"/usr/bin/tmc"
+'2  282  0  /usr/bin/bash
+|4,50,282,0,1636430558,"/usr/bin/bash"
+'3  132  0  ~/.tmux.conf
+|4,51,132,0,1636426686,"~/.tmux.conf"
+'4  131  0  ~/.tmux.conf
+|4,52,131,0,1636426686,"~/.tmux.conf"
+'5  3  1  ~/.gitconfig
+|4,53,3,1,1636423975,"~/.gitconfig"
+'6  58  25  /etc/ssh/sshd_config
+|4,54,58,25,1636423414,"/etc/ssh/sshd_config"
+'7  1  8  ~/.tmux/tmux-pane-border
+|4,55,1,8,1636422363,"~/.tmux/tmux-pane-border"
+'8  140  1  ~/.bashrc
+|4,56,140,1,1636420319,"~/.bashrc"
+'9  1  0  ~/etc/apt/apt.conf
+|4,57,1,0,1636417713,"~/etc/apt/apt.conf"
 
 # Jumplist (newest first):
+-'  131  0  ~/.tmux.conf
+|4,39,131,0,1636430663,"~/.tmux.conf"
+-'  43  7  /usr/bin/tmc
+|4,39,43,7,1636430609,"/usr/bin/tmc"
+-'  1  0  /usr/bin/tmc
+|4,39,1,0,1636430590,"/usr/bin/tmc"
+-'  282  0  /usr/bin/bash
+|4,39,282,0,1636430558,"/usr/bin/bash"
+-'  282  0  /usr/bin/bash
+|4,39,282,0,1636430558,"/usr/bin/bash"
+-'  1  0  /usr/bin/bash
+|4,39,1,0,1636430542,"/usr/bin/bash"
+-'  1  0  /usr/bin/bash
+|4,39,1,0,1636430542,"/usr/bin/bash"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1636428546,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1636426686,"~/.tmux.conf"
+-'  131  0  ~/.tmux.conf
+|4,39,131,0,1636426686,"~/.tmux.conf"
+-'  131  0  ~/.tmux.conf
+|4,39,131,0,1636426686,"~/.tmux.conf"
+-'  131  0  ~/.tmux.conf
+|4,39,131,0,1636426686,"~/.tmux.conf"
 -'  131  0  ~/.tmux.conf
 |4,39,131,0,1636426686,"~/.tmux.conf"
 -'  129  0  ~/.tmux.conf
 |4,39,129,0,1636426382,"~/.tmux.conf"
+-'  129  0  ~/.tmux.conf
+|4,39,129,0,1636426382,"~/.tmux.conf"
+-'  129  0  ~/.tmux.conf
+|4,39,129,0,1636426382,"~/.tmux.conf"
+-'  129  0  ~/.tmux.conf
+|4,39,129,0,1636426382,"~/.tmux.conf"
+-'  129  0  ~/.tmux.conf
+|4,39,129,0,1636426382,"~/.tmux.conf"
 -'  6  0  ~/.tmux.conf
 |4,39,6,0,1636426334,"~/.tmux.conf"
+-'  6  0  ~/.tmux.conf
+|4,39,6,0,1636426334,"~/.tmux.conf"
+-'  6  0  ~/.tmux.conf
+|4,39,6,0,1636426334,"~/.tmux.conf"
+-'  6  0  ~/.tmux.conf
+|4,39,6,0,1636426334,"~/.tmux.conf"
+-'  6  0  ~/.tmux.conf
+|4,39,6,0,1636426334,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1636426317,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1636426317,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1636426317,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
 |4,39,1,0,1636426317,"~/.tmux.conf"
 -'  3  1  ~/.gitconfig
 |4,39,3,1,1636423975,"~/.gitconfig"
 -'  3  1  ~/.gitconfig
 |4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636423975,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1636423969,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1636423969,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
@@ -110,6 +188,70 @@
 |4,39,58,25,1636423414,"/etc/ssh/sshd_config"
 -'  58  25  /etc/ssh/sshd_config
 |4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
 -'  1  0  /etc/ssh/sshd_config
 |4,39,1,0,1636423355,"/etc/ssh/sshd_config"
 -'  1  0  /etc/ssh/sshd_config
@@ -134,174 +276,43 @@
 |4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
 -'  1  8  ~/.tmux/tmux-pane-border
 |4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  22  0  ~/.tmux/tmux-pane-border
-|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  140  1  ~/.bashrc
-|4,39,140,1,1636420319,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1636418086,"~/.bashrc"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/etc/apt/apt.conf
-|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
--'  1  0  ~/.vimrc
-|4,39,1,0,1636417587,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1636417587,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1636417587,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
 
 # History of marks within files (newest to oldest):
 
+> /usr/bin/tmc
+	*	1636430608	0
+	"	43	7
+	^	44	14
+	.	44	0
+	+	44	0
+
+> /usr/bin/bash
+	*	1636430558	0
+	"	282	0
+
 > ~/.tmux.conf
-	*	1636426685	0
+	*	1636428678	0
 	"	131	0
-	^	130	75
-	.	130	74
-	+	136	0
+	^	130	95
+	.	130	109
+	+	137	0
 	+	6	0
 	+	129	0
 	+	130	0
-	+	131	0
+	+	132	0
 	+	129	0
 	+	128	0
-	+	130	74
+	+	130	109
 
 > ~/.gitconfig
 	*	1636423974	0
