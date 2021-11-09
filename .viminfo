@@ -11,20 +11,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
-|2,0,1636422363,,"wq"
+:q!
+|2,0,1636423414,,"q!"
 :q
-|2,0,1636420319,,"q"
+|2,0,1636423408,,"q"
+:wq!
+|2,0,1636423403,,"wq!"
+:wq
+|2,0,1636423394,,"wq"
 :w
 |2,0,1636419293,,"w"
-:q!
-|2,0,1636417713,,"q!"
 :1
 |2,0,1636417703,,"1"
 :w!
 |2,0,1636417701,,"w!"
-:wq!
-|2,0,1636417691,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -45,34 +45,52 @@
 	[http "https://github.com/"]
 |3,0,3,1,1,0,1636417400,"[http \"https://github.com/\"]"
 ""-	CHAR	0
-	z
-|3,1,36,0,1,0,1636422356,"z"
+	o
+|3,1,36,0,1,0,1636423386,"o"
 
 # File marks:
-'0  1  8  ~/.tmux/tmux-pane-border
-|4,48,1,8,1636422363,"~/.tmux/tmux-pane-border"
-'1  140  1  ~/.bashrc
-|4,49,140,1,1636420319,"~/.bashrc"
-'2  1  0  ~/etc/apt/apt.conf
-|4,50,1,0,1636417713,"~/etc/apt/apt.conf"
-'3  1  0  ~/.vimrc
-|4,51,1,0,1636417587,"~/.vimrc"
-'4  1  9  ~/.vimrc
-|4,52,1,9,1636417581,"~/.vimrc"
-'5  3  1  ~/.gitconfig
-|4,53,3,1,1636417406,"~/.gitconfig"
-'6  136  0  ~/.tmux.conf
-|4,54,136,0,1636416599,"~/.tmux.conf"
+'0  58  25  /etc/ssh/sshd_config
+|4,48,58,25,1636423414,"/etc/ssh/sshd_config"
+'1  1  8  ~/.tmux/tmux-pane-border
+|4,49,1,8,1636422363,"~/.tmux/tmux-pane-border"
+'2  140  1  ~/.bashrc
+|4,50,140,1,1636420319,"~/.bashrc"
+'3  1  0  ~/etc/apt/apt.conf
+|4,51,1,0,1636417713,"~/etc/apt/apt.conf"
+'4  1  0  ~/.vimrc
+|4,52,1,0,1636417587,"~/.vimrc"
+'5  1  9  ~/.vimrc
+|4,53,1,9,1636417581,"~/.vimrc"
+'6  3  1  ~/.gitconfig
+|4,54,3,1,1636417406,"~/.gitconfig"
+'7  136  0  ~/.tmux.conf
+|4,55,136,0,1636416599,"~/.tmux.conf"
 
 # Jumplist (newest first):
+-'  58  25  /etc/ssh/sshd_config
+|4,39,58,25,1636423414,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1636423355,"/etc/ssh/sshd_config"
 -'  1  8  ~/.tmux/tmux-pane-border
 |4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  1  8  ~/.tmux/tmux-pane-border
+|4,39,1,8,1636422363,"~/.tmux/tmux-pane-border"
+-'  22  0  ~/.tmux/tmux-pane-border
+|4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
 -'  22  0  ~/.tmux/tmux-pane-border
 |4,39,22,0,1636422353,"~/.tmux/tmux-pane-border"
 -'  140  1  ~/.bashrc
 |4,39,140,1,1636420319,"~/.bashrc"
 -'  140  1  ~/.bashrc
 |4,39,140,1,1636420319,"~/.bashrc"
+-'  140  1  ~/.bashrc
+|4,39,140,1,1636420319,"~/.bashrc"
+-'  140  1  ~/.bashrc
+|4,39,140,1,1636420319,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1636418086,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1636418086,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1636418086,"~/.bashrc"
 -'  1  0  ~/.bashrc
@@ -85,6 +103,14 @@
 |4,39,1,0,1636417713,"~/etc/apt/apt.conf"
 -'  1  0  ~/etc/apt/apt.conf
 |4,39,1,0,1636417713,"~/etc/apt/apt.conf"
+-'  1  0  ~/etc/apt/apt.conf
+|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
+-'  1  0  ~/etc/apt/apt.conf
+|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
+-'  1  0  ~/etc/apt/apt.conf
+|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
+-'  1  0  ~/etc/apt/apt.conf
+|4,39,1,0,1636417713,"~/etc/apt/apt.conf"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1636417587,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -101,6 +127,38 @@
 |4,39,1,0,1636417587,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1636417587,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
+-'  1  9  ~/.vimrc
+|4,39,1,9,1636417581,"~/.vimrc"
 -'  1  9  ~/.vimrc
 |4,39,1,9,1636417581,"~/.vimrc"
 -'  1  9  ~/.vimrc
@@ -181,92 +239,43 @@
 |4,39,3,1,1636417406,"~/.gitconfig"
 -'  3  1  ~/.gitconfig
 |4,39,3,1,1636417406,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1636417393,"~/.gitconfig"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
--'  136  0  ~/.tmux.conf
-|4,39,136,0,1636416599,"~/.tmux.conf"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
+-'  3  1  ~/.gitconfig
+|4,39,3,1,1636417406,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
+
+> /etc/ssh/sshd_config
+	*	1636423410	0
+	"	58	25
+	^	58	26
+	.	58	25
+	+	58	25
 
 > ~/.tmux/tmux-pane-border
 	*	1636422360	0
