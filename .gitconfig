@@ -1,3 +1,7 @@
 [user]
 	name = khoshi-higashi
 	email = 89444685+khoshi-higashi@users.noreply.github.com
+[http]
+	proxy = http://proxy.host.com:8080
+[https]
+	proxy = http://proxy.host.com:8080
