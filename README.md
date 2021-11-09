@@ -55,12 +55,3 @@ tmcの設定[Tmux生活を送る](https://qiita.com/aoi_stoic/items/df7533a2cbd4
 
 sudo mv gotop /bin/
 
-[ログインが楽しくなる！screenfetchを使ってCentOSで遊んでみた](https://qiita.com/shimatter/items/63eefae88fecd4ed3281)
-
-wget https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev
-
-su -
-
-cp screenfetch-dev /usr/local/bin/screenfetch
-
-chmod 755 /usr/local/bin/screenfetch
