@@ -124,9 +124,9 @@ function precmd() {
   fi
 }
 if [ $SHLVL = 1 ]; then
-   tmux -2 new -d -s Onomatomania  # Onomatomaniaという名前のセッションをデタッチされた状態で作成
-   tmux send-key -t Onomatomania.0 "echo hello" ENTER  # Onomatomaniaに命令を送信
-   tmux a -t Onomatomania  # Onomatomaniaにアタッチ
+   tmux -2 new -d -s SES  # SESという名前のセッションをデタッチされた状態で作成
+   tmux send-key -t SES.0 "echo hello" ENTER  # SESに命令を送信
+   tmux a -t SES  # SESにアタッチ
 fi
 PATH=$PATH:$HOME/bin
 
